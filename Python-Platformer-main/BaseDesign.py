@@ -1,4 +1,5 @@
 import os
+os.chdir(os.path.dirname(os.path.abspath(file)))
 import random
 import math
 import pygame
